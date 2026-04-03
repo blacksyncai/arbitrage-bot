@@ -1,0 +1,32 @@
+# Environment variables — NEVER commit this
+.env
+
+# Logs
+arbitrage_log.txt
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Debug scripts
+debug_*.py
+roi_analysis.py
